@@ -25,7 +25,8 @@ form{
     word-spacing: 0.3em;
 }
 .sport, .activite, .champ_nom, .champ_ville{
-    display: flex;}
+    display: flex;
+}
 #nom, #ville{
     height: 2.5em;
     width: 13em;
