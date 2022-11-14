@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>formulaire colonie</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h2>Questionnaire de colonie de vacances</h2>
+            <form action="">
+                <div class="champ_nom">
+                    <div>
+                        <label for="nom">Votre nom&nbsp;</label>
+                    </div>
+                    <div>
+                        <input type="text" name="nom" id="nom">
+                    </div>
+                </div>
+                <div class="champ_ville">
+                    <div>
+                        <label for="ville">Votre ville d'origine&nbsp;</label>
+                    </div>
+                    <div>
+                        <input type="text" name="ville" id="ville">
+                    </div>
+                </div>
+                <div class="sport">
+                    <div>
+                        Choisir un sport : &nbsp;
+                    </div>
+                    <div>
+                        <input type="radio" name="sport" id="sport">
+                        <label for="sport">&nbsp;<b>Basket&nbsp;</b></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sport" id="sport">
+                        <label for="sport">&nbsp;<b>Rugby&nbsp;</b></label>
+                    </div>
+                    <div>
+                        <input type="radio" name="sport" id="sport">
+                        <label for="sport">&nbsp;<b>Volley&nbsp;</b></label>
+                    </div>
+                </div>
+                <div class="activite">
+                    Choisir une activité: &nbsp;
+                    <div>
+                        <input type="checkbox" name="activite" id="activite">
+                        <label for="activite">&nbsp;<b>Cinéma&nbsp;</b></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="activite" id="activite">
+                        <label for="activite">&nbsp;<b>Pêche&nbsp;</b></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="activite" id="activite">
+                        <label for="activite">&nbsp;<b>Maquette&nbsp;</b></label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="activite" id="activite">
+                        <label for="activite">&nbsp;<b>Théâtre&nbsp;</b></label>
+                    </div>
+                    <br>
+                </div>
+                <label for="coul">Couleur d'équipe</label>
+                <select value="">
+                    <option value="0" selected disabled hidden>--Veuillez-choisir une option--</option>
+                    <option value="1">Vert</option>
+                    <option value="2">bleu</option>
+                    <option value="3">jaune</option>
+                    <option value="4">rouge</option>
+                </select>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
